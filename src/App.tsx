@@ -1,9 +1,13 @@
-function App() {
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+
+export default function App() {
     return (
-        <main className="min-h-screen bg-emerald-600 text-white">
-            Hello World
+        <main className="bg-black">
+            <Navbar />
+            <Hero />
+            <Highlights />
         </main>
     );
 }
-
-export default App;
