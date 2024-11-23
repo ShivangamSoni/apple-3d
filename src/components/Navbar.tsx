@@ -15,11 +15,11 @@ const navItems = [
 
 export default function Navbar() {
     return (
-        <header>
-            <div>
+        <header className="w-full py-5 sm:px-10 px-5">
+            <div className="flex items-center justify-center gap-5">
                 <img src={appleImg} alt="Apple" className="w-8 h-8" />
-                <nav>
-                    <ul>
+                <nav className="flex items-center justify-center gap-5">
+                    <ul className="flex items-center justify-center gap-5">
                         {navItems.map((item) => (
                             <li key={item}>
                                 <a href="">{item}</a>
