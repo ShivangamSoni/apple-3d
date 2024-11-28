@@ -24,7 +24,7 @@ export default function Navbar() {
                             <li key={item}>
                                 <a
                                     href="#"
-                                    className="text-sm text-primary-gray hover:text-white focus-visible:text-white transition-colors"
+                                    className="text-sm text-primary-gray outline-none hover:text-white focus-visible:text-white transition-colors"
                                 >
                                     {item}
                                 </a>
